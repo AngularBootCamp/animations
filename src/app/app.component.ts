@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
-import { overshootWidth } from '../animations';
-
+import { overshootWidth } from './animations';
 import { regionalFinancialInfo } from './records';
 
 @Component({
