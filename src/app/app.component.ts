@@ -1,4 +1,4 @@
-import { NgFor, NgClass } from '@angular/common';
+import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
 
 import { overshootWidth } from './animations';
@@ -9,7 +9,7 @@ import { regionalFinancialInfo } from './records';
   templateUrl: './app.component.html',
   animations: [overshootWidth],
   standalone: true,
-  imports: [NgFor, NgClass]
+  imports: [NgClass]
 })
 export class AppComponent {
   regionInfo = regionalFinancialInfo;
